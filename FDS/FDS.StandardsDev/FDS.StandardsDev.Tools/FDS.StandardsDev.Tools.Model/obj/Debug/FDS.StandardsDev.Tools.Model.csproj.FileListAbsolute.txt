@@ -1,0 +1,7 @@
+C:\Projects\FDS\FDS.StandardsDev\FDS.StandardsDev.Tools\FDS.StandardsDev.Tools.Model\obj\Debug\FDS.StandardsDev.Tools.Model.csprojResolveAssemblyReference.cache
+C:\Projects\FDS\FDS.StandardsDev\FDS.StandardsDev.Tools\FDS.StandardsDev.Tools.Model\bin\Debug\FDS.StandardsDev.Tools.Model.dll
+C:\Projects\FDS\FDS.StandardsDev\FDS.StandardsDev.Tools\FDS.StandardsDev.Tools.Model\bin\Debug\FDS.StandardsDev.Tools.Model.pdb
+C:\Projects\FDS\FDS.StandardsDev\FDS.StandardsDev.Tools\FDS.StandardsDev.Tools.Model\bin\Debug\Dapper.dll
+C:\Projects\FDS\FDS.StandardsDev\FDS.StandardsDev.Tools\FDS.StandardsDev.Tools.Model\bin\Debug\Dapper.xml
+C:\Projects\FDS\FDS.StandardsDev\FDS.StandardsDev.Tools\FDS.StandardsDev.Tools.Model\obj\Debug\FDS.StandardsDev.Tools.Model.dll
+C:\Projects\FDS\FDS.StandardsDev\FDS.StandardsDev.Tools\FDS.StandardsDev.Tools.Model\obj\Debug\FDS.StandardsDev.Tools.Model.pdb

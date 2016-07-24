@@ -1,0 +1,116 @@
+﻿@{
+    ViewBag.Title = "Configuration";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section scripts {
+
+    <link href="~/Content/CustomStyle.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/angular.js"></script>
+    <script src="~/Scripts/AngularController.js"></script>
+}
+<div ng-app="configurationModule" id="body">
+    <div ng-controller="configurationController">
+        <h2>Configuration - AngularJS CRUD Operations with MVC5 WebAPI</h2>
+
+        <h3>List of Configurations</h3>
+
+        <table ng-cloak>
+            <thead>
+                <tr>
+                    <th style="display: none;">ID</th>
+                    <th>Description</th>
+                    <th>Setting</th>
+                    <th>Value</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="items in ConfigurationData">
+                    <td hidden="hidden">{{items.ConfigurationId}}</td>
+                    <td>{{items.Description}}</td>
+                    <td>{{items.Setting}}</td>
+                    <td>{{items.Value}}</td>
+                    <td>
+                        <button ng-model="$scope.Configuration"
+                                ng-click="edit(ConfigurationData[$index], $index)">
+                            Edit
+                        </button>
+                        <button ng-click="delete($index)">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="6">
+                        <hr />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Total :</td>
+                    <td></td>
+                    <td>
+                        <label ng-bind="total()"></label>
+                    </td>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+        <br />
+        <div style="border-top: solid 2px #282828; width: 430px; height: 10px"> </div>
+
+        <div ng-show="Configuration.ConfigurationId != '' ">
+            <div>
+                <h2>Update Configuration</h2>
+            </div>
+            <div hidden="hidden">
+                <label for="ConfigurationId">Id</label>
+                <input type="text" data-ng-model="Configuration.ConfigurationId" />
+            </div>
+            <div>
+                <label for="Description">Description</label>
+                <input type="text" data-ng-model="Configuration.Description" />
+            </div>
+
+            <div>
+                <label for="Setting">Setting</label>
+                <input type="text" data-ng-model="Configuration.Setting" />
+            </div>
+
+            <div>
+                <label for="Value">Value</label>
+                <input type="text" data-ng-model="Configuration.Value" />
+            </div>
+            <br />
+            <div>
+                <button data-ng-click="update()">Update</button>
+                <button data-ng-click="cancel()">Cancel</button>
+            </div>
+        </div>
+
+        <div ng-hide="Configuration.ConfigurationId != '' ">
+            <div>
+                <h2>Add New Configuration</h2>
+            </div>
+            <div>
+                <label for="Description">Description</label>
+                <input type="text" data-ng-model="Configuration.Description" />
+            </div>
+
+            <div>
+                <label for="Setting">Setting</label>
+                <input type="text" data-ng-model="Configuration.Setting" />
+            </div>
+
+            <div>
+                <label for="Value">Value</label>
+                <input type="text" data-ng-model="Configuration.Value" />
+            </div>
+            <br />
+            <div>
+                <button data-ng-click="save()">Save</button>
+                <button data-ng-click="clear()">Clear</button>
+            </div>
+        </div>
+    </div>
+</div>

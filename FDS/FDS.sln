@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FDS.StandardsDev.Tools.ActiveLibraryTest", "FDS.StandardsDev\FDS.StandardsDev.Tools\FDS.StandardsDev.Tools.ActiveLibraryTest\FDS.StandardsDev.Tools.ActiveLibraryTest.csproj", "{4005DC0C-C720-45FD-9F6A-60BD751D103D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FDS.StandardsDev.Tools.ServiceStackJobHangFire", "FDS.StandardsDev\FDS.StandardsDev.Tools\FDS.StandardsDev.Tools.ServiceStackJobHangFire\FDS.StandardsDev.Tools.ServiceStackJobHangFire.csproj", "{66372757-36B6-433B-84EE-4B5452524844}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcAngular", "MvcAngular\MvcAngular.csproj", "{94DA579D-9962-40F6-B37D-73512A596A38}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MVCAngular2", "..\..\Users\Sena\Documents\Visual Studio 2015\WebSites\MVCAngular2\", "{FCD2FE2E-35F0-4BB7-90E8-DFD8444E87CB}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_57013"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\Users\Sena\Documents\Visual Studio 2015\WebSites\MVCAngular2\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57013\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_57013"
+		Release.AspNetCompiler.PhysicalPath = "..\..\Users\Sena\Documents\Visual Studio 2015\WebSites\MVCAngular2\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57013\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "57013"
+		SlnRelativePath = "..\..\Users\Sena\Documents\Visual Studio 2015\WebSites\MVCAngular2\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNetCore", "AspNetCore\AspNetCore.xproj", "{78D6D38D-E9A0-44D7-8F57-7B56ED733EDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCApps", "MVCApps\MVCApps.csproj", "{4BCA2B13-4BB4-4815-ABC0-D00EE1D3F19F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FDS.StandardsDev.Tools.AngularMVC5", "FDS.StandardsDev\FDS.StandardsDev.Tools\FDS.StandardsDev.Tools.AngularMVC5\FDS.StandardsDev.Tools.AngularMVC5.csproj", "{FAA5392B-355A-448C-9614-70DF0B6DB471}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FDS.StandardsDev.Tools.Model", "FDS.StandardsDev\FDS.StandardsDev.Tools\FDS.StandardsDev.Tools.Model\FDS.StandardsDev.Tools.Model.csproj", "{E5FDF034-7981-477D-A047-939DC209121A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4005DC0C-C720-45FD-9F6A-60BD751D103D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4005DC0C-C720-45FD-9F6A-60BD751D103D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4005DC0C-C720-45FD-9F6A-60BD751D103D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4005DC0C-C720-45FD-9F6A-60BD751D103D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66372757-36B6-433B-84EE-4B5452524844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66372757-36B6-433B-84EE-4B5452524844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66372757-36B6-433B-84EE-4B5452524844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66372757-36B6-433B-84EE-4B5452524844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94DA579D-9962-40F6-B37D-73512A596A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94DA579D-9962-40F6-B37D-73512A596A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94DA579D-9962-40F6-B37D-73512A596A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94DA579D-9962-40F6-B37D-73512A596A38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCD2FE2E-35F0-4BB7-90E8-DFD8444E87CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCD2FE2E-35F0-4BB7-90E8-DFD8444E87CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCD2FE2E-35F0-4BB7-90E8-DFD8444E87CB}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCD2FE2E-35F0-4BB7-90E8-DFD8444E87CB}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{78D6D38D-E9A0-44D7-8F57-7B56ED733EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78D6D38D-E9A0-44D7-8F57-7B56ED733EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78D6D38D-E9A0-44D7-8F57-7B56ED733EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78D6D38D-E9A0-44D7-8F57-7B56ED733EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BCA2B13-4BB4-4815-ABC0-D00EE1D3F19F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BCA2B13-4BB4-4815-ABC0-D00EE1D3F19F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BCA2B13-4BB4-4815-ABC0-D00EE1D3F19F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BCA2B13-4BB4-4815-ABC0-D00EE1D3F19F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAA5392B-355A-448C-9614-70DF0B6DB471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAA5392B-355A-448C-9614-70DF0B6DB471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAA5392B-355A-448C-9614-70DF0B6DB471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAA5392B-355A-448C-9614-70DF0B6DB471}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5FDF034-7981-477D-A047-939DC209121A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5FDF034-7981-477D-A047-939DC209121A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5FDF034-7981-477D-A047-939DC209121A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5FDF034-7981-477D-A047-939DC209121A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
